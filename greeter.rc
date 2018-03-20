@@ -1,1 +1,1 @@
-service helloworld /system/bin/helloworld
+service greeter /system/bin/greeter
