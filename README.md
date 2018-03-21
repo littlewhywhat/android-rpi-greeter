@@ -19,3 +19,9 @@ PRODUCT_PACKAGES += \
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
 
 Graphics HAL of this build : https://github.com/anholt/mesa/wiki/VC4
+
+## Run unit test on target
+
+```
+python ./development/testrunner/runtest.py -x frameworks/native/cmds/greeter/
+```
